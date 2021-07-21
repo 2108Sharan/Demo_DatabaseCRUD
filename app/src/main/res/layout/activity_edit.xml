@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".EditActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="ID: "
+        android:layout_height="wrap_content"
+        android:id="@+id/tvID"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Content: "
+        android:layout_height="wrap_content"
+        android:id="@+id/tvEditContent"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etContent" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnUPDATE"
+        android:text="update"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnDELETE"
+        android:text="delete"/>
+
+
+</LinearLayout>
